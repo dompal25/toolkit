@@ -1,0 +1,21 @@
+{
+  "name": "sales-engineering-toolkit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:mock": "ts-node integrations/mock-api.ts",
+    "dev:replay": "ts-node integrations/webhook-replay.ts",
+    "check:latency": "node ops/latency-check.ts https://example.com https://httpbin.org/get"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "@types/express": "^4.17.21"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "info": {
+    "name": "Sales Engineering Toolkit",
+    "_postman_id": "toolkit-collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Mock API Health",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8080/health",
+          "host": [
+            "http://localhost:8080"
+          ],
+          "path": [
+            "health"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Events (Batch)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{API_KEY}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "[{\"type\":\"page\"},{\"type\":\"identify\"}]"
+        },
+        "url": {
+          "raw": "{{API_BASE_URL}}/events",
+          "host": [
+            "{{API_BASE_URL}}"
+          ],
+          "path": [
+            "events"
+          ]
+        }
+      }
+    }
+  ]
+}
