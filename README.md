@@ -1,5 +1,6 @@
-
 # Sales Engineering Toolkit
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdompal25%2Ftoolkit.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdompal25%2Ftoolkit?ref=badge_shield)
+
 
 A batteries-included toolkit to spin up demos, simulate integrations, and package POCs quickly.
 
@@ -49,3 +50,7 @@ postman/     # collection & env template
 **Created:** 2025-09-09
 ```
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdompal25%2Ftoolkit.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdompal25%2Ftoolkit?ref=badge_large)
