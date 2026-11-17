@@ -6,8 +6,8 @@ A batteries-included toolkit to spin up demos, simulate integrations, and packag
 ## Quick Start
 
 ```bash
-git clone <your-fork-url> sales-engineering-toolkit
-cd sales-engineering-toolkit
+git clone https://github.com/dompal25/toolkit.git
+cd toolkit
 
 # Node / TS tools
 npm install
